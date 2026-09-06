@@ -1,0 +1,20 @@
+{
+  "format": "gpt2-new20-pretraining-freeze-v1",
+  "frozen_at": "2026-09-02T23:51:35-04:00",
+  "gpt2_results_present_at_freeze": false,
+  "candidate_count": 20,
+  "optimizer_updates_per_run": 5120,
+  "training_seed": 0,
+  "physical_gpus": [0, 3],
+  "campaign_controller_workers": 1,
+  "world_size": 2,
+  "micro_batch_per_gpu": 1,
+  "gradient_accumulation_steps": 64,
+  "global_batch_sequences": 128,
+  "sha256": {
+    "candidate_manifest.json": "f674ebb0b3f0d848dc0da8a2d6a73f28f2600cb1710a511ab23e36dbc71bb9a4",
+    "ncpl_predictions.json": "e87d7ef9c575b7dc6cd675360c7efc80faab1b13a65d7132eabba704bfdb98f7",
+    "fewshot_transfer/ncpl_representations.json": "35409f46fd05d702e9fba15ba625f45376b640bf79b866839b178bc61f16f6b7",
+    "manifest_audit.json": "7362106dd7060102520d86352825ad33c7fe3355b13e372b25ce2870431265bf"
+  }
+}

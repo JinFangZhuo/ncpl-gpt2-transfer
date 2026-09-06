@@ -1,0 +1,825 @@
+{
+  "adapter": "marin_aligned_4096_exact_final_residual_batch",
+  "candidate_manifest": "/jumbo/yaoqingyang/fangzhuo/research-source/FARMS/rmnp_gpt2_ncpl_generalization/GPT-2/experiments/ncpl_gpt2_marin_matched_20configs_eniac_gpu4_7_20260902/candidate_manifest.json",
+  "candidate_manifest_sha256": "f674ebb0b3f0d848dc0da8a2d6a73f28f2600cb1710a511ab23e36dbc71bb9a4",
+  "candidate_count": 20,
+  "checkpoint": "/jumbo/yaoqingyang/fangzhuo/original_ncpl/NCPL-final",
+  "checkpoint_fingerprint": {
+    "format": "ncpl-release-files-sha256-v1",
+    "git_commit": "9c31e1163c9e4cc613ac67e1540ba1aa197cbe68",
+    "git_origin": "https://huggingface.co/OptimizerStudy/NCPL-final",
+    "git_clean": true,
+    "git_status": [],
+    "file_sha256": {
+      ".gitattributes": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+      "README.md": "dca4c0fbc1af0427992a6552cb8ac2b43efb6a7a0200dc2021f9bb0d2f504879",
+      "added_tokens.json": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+      "chat_template.jinja": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "config.json": "8bf7db850b160fc807173cf1cacd372adf1b04907846216305ef5702e5702df3",
+      "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "model.py": "4e3311705b54c38c1fc8426e7f5fd0220e3dbcb8119f65a9fa2c4bf7b1cb3d83",
+      "pytorch_model.bin": "4d6d4f3b5c94d9d284a63c00a047158ac6dd9b637f5576b20d54fae1b4fa8905",
+      "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+      "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "tokenizer_config.json": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  },
+  "adapter_equivalence": {
+    "format": "ncpl-official-prefix-equivalence-v1",
+    "all_exact_match": true,
+    "candidate_count": 20,
+    "official_repository": {
+      "git_commit": "4f6e64b0144ec0fa8070a4398e3aebe33a8b11b1",
+      "git_origin": "https://github.com/zhqwqwq/Configuration-to-Performance-Scaling-Law.git",
+      "git_clean": true,
+      "git_status": [],
+      "file_sha256": {
+        "src/generate_dataset.py": "9e227400eec414f4a1e4b76e89375d5a3b8385f1a05224ad472f953d9a87ebeb",
+        "configs/data_config.yaml": "75733c8dc0cc746f0ea8195666a56706f9ef744ba9ac31fe873c0f5889503864",
+        "requirements.txt": "0605f898b7e2922e8b6e09106b7aa91365bc5c0186141d10f780b8fe37c4efee"
+      }
+    },
+    "local_adapter_source_sha256": {
+      "predict.py": "4ccf6c4f957aeedc51272e9d4bf295afeb038c7660d8ca08a74ce8095e30489a",
+      "predict_candidates.py": "1535d047c45751436448ffd41fe84d427ff2f468a1fdb615329cf85591ef1b1e"
+    },
+    "prefixes": [
+      {
+        "candidate_id": "new20_adamw_7872126e06ac",
+        "exact_match": true,
+        "prefix_sha256": "edc68de24b547a486f2b2e16d926a99f83d3742df57e7b36050c65962fd087b4",
+        "token_count": 121,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_6403d6a62847",
+        "exact_match": true,
+        "prefix_sha256": "7dae24f25977b20c2aabfc6d63d03d6da49c30bde9ee79f2fe3fbd2b3e44311d",
+        "token_count": 120,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_999f14830691",
+        "exact_match": true,
+        "prefix_sha256": "c8709bc27d512e8ca45f31e681fc03e8efb038b5e4b6225699bdc6faff03e0ca",
+        "token_count": 121,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_439f9d83563f",
+        "exact_match": true,
+        "prefix_sha256": "644a0b92a53d390ffc890819da54288966c245e3af02859290400275c3c4b00e",
+        "token_count": 121,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_9c8a7bf73108",
+        "exact_match": true,
+        "prefix_sha256": "38d6a4216a4fb98281f1c63ccda0879c3897e22dde70b15d52d251c74d113943",
+        "token_count": 121,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_cbe50ff3e579",
+        "exact_match": true,
+        "prefix_sha256": "58e046e2adde0701d3a6bbff63736e96ad9c29ef8150a27c65011a3a56ee5dd2",
+        "token_count": 121,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_d7d748e2c249",
+        "exact_match": true,
+        "prefix_sha256": "1c1334b836b684b84fef3c9d928cbb319f4e3a2aa4b4c5fc8c6e1ec1fc045fb2",
+        "token_count": 121,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_06e5d43d99ea",
+        "exact_match": true,
+        "prefix_sha256": "68a27b0d0c005def5da22520a70ab00bd068315d28a9b12f7b027e1a4d620c2f",
+        "token_count": 120,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_6ed2a586e72b",
+        "exact_match": true,
+        "prefix_sha256": "fda43eea6ca9c8985d534c7e8c1b7ac286feb712c391acdf7cea6c3951739b70",
+        "token_count": 121,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_a669d3432a18",
+        "exact_match": true,
+        "prefix_sha256": "3f352cff87ecdb75ac56549da3e07ec69a531276aa018931955cd4563e7ad1f5",
+        "token_count": 121,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_551e8a6d469c",
+        "exact_match": true,
+        "prefix_sha256": "c2a1f7f77a096d3386a819dd07532da8758b3e65c50aa087bacd4668f99f8d57",
+        "token_count": 121,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_168b6e1287f8",
+        "exact_match": true,
+        "prefix_sha256": "10367ec52876a09a68159c3535d48d73080597754501fdf5ca77c74cbaf616cf",
+        "token_count": 120,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_b11e3576434c",
+        "exact_match": true,
+        "prefix_sha256": "e2a5ccd0e20cc9d77380f50947f26d46c843786f6367295069b04cb78a2d738a",
+        "token_count": 121,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_3da1feea63ec",
+        "exact_match": true,
+        "prefix_sha256": "bced962e73ce96f36f0f7aa6ff0941958dc111b619118c890d92aca79a02cbee",
+        "token_count": 121,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_0115f89d936e",
+        "exact_match": true,
+        "prefix_sha256": "50a55dcfbb722837862d5adbb3045fb1b79eb7e10e4ba401a9135993e84b1bac",
+        "token_count": 121,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_5e2492407427",
+        "exact_match": true,
+        "prefix_sha256": "190d31f642fcdef7aa2c3f5e1621cbc7598472d48405b8cd2b4a88cbc551a42e",
+        "token_count": 121,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_da948dcf86da",
+        "exact_match": true,
+        "prefix_sha256": "46de848e73fe75b081f34359c66b892756830f2e6e9fff910cf8f647a0789d95",
+        "token_count": 121,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_4411ecee266d",
+        "exact_match": true,
+        "prefix_sha256": "8f680bad8fbb7881476a8cf722544ea7ffc2195b7b5c8f9b6b6a4f29528d1748",
+        "token_count": 121,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_d48e2f93d920",
+        "exact_match": true,
+        "prefix_sha256": "97819f54110b8972e3d86538c2897daa67c77b152258d828d43a00d6ab34cb56",
+        "token_count": 121,
+        "number_token_count": 13
+      },
+      {
+        "candidate_id": "new20_adamw_12cf3bd3a767",
+        "exact_match": true,
+        "prefix_sha256": "d272639376c310ffb045a47c89ac1caad39a1e38ecd31847394d26e77fbe2018",
+        "token_count": 120,
+        "number_token_count": 13
+      }
+    ]
+  },
+  "inference_runtime": {
+    "python": "3.12.3",
+    "torch": "2.12.0+cu130",
+    "transformers": "4.57.1",
+    "tokenizers": "0.22.2",
+    "torch_cuda": "13.0",
+    "package_versions": {
+      "munch": "4.0.0",
+      "numpy": "2.4.2",
+      "omegaconf": "2.3.0",
+      "PyYAML": "6.0.3",
+      "tqdm": "4.67.1",
+      "transformers": "4.57.1",
+      "wandb": "0.24.2",
+      "torch": "2.12.0",
+      "tokenizers": "0.22.2"
+    },
+    "official_requirement_checks": {
+      "munch": true,
+      "numpy": true,
+      "omegaconf": true,
+      "PyYAML": true,
+      "tqdm": true,
+      "transformers": true,
+      "wandb": true,
+      "torch>=2.0.0": true
+    },
+    "official_requirements_all_satisfied": true
+  },
+  "device": "cpu",
+  "dtype": "float32",
+  "batch_size": 4,
+  "uses_training_checkpoints_or_weights": false,
+  "predictions": [
+    {
+      "candidate_id": "new20_adamw_7872126e06ac",
+      "predicted_residual": 0.11086658388376236,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.550182636693627,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.00475682846,
+          "lr schedule": "cosine",
+          "warmup": 1075,
+          "weight decay": 0.3,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.902,
+          "epsilon": 20,
+          "max_grad_norm": 0.26334026,
+          "min_lr_ratio": 0.04375,
+          "min_lr": 0.000208111245
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_6403d6a62847",
+      "predicted_residual": 0.21712234616279602,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.6564383989726608,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.007210003701,
+          "lr schedule": "cosine",
+          "warmup": 1975,
+          "weight decay": 0.74,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.93,
+          "epsilon": 22,
+          "max_grad_norm": 0.91700404,
+          "min_lr_ratio": 0.01375,
+          "min_lr": 9.9137551e-05
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_999f14830691",
+      "predicted_residual": 0.09596989303827286,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.5352859458481376,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.013454342644,
+          "lr schedule": "cosine",
+          "warmup": 1525,
+          "weight decay": 0.02,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.938,
+          "epsilon": 21,
+          "max_grad_norm": 0.3597334,
+          "min_lr_ratio": 0.00875,
+          "min_lr": 0.000117725498
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_439f9d83563f",
+      "predicted_residual": 0.20546618103981018,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.644782233849675,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.012553345566,
+          "lr schedule": "cosine",
+          "warmup": 1675,
+          "weight decay": 0.66,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.954,
+          "epsilon": 18,
+          "max_grad_norm": 0.32420989,
+          "min_lr_ratio": 0.02875,
+          "min_lr": 0.000360908685
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_9c8a7bf73108",
+      "predicted_residual": 0.22746285796165466,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.6667789107715194,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.008282119391,
+          "lr schedule": "cosine",
+          "warmup": 1825,
+          "weight decay": 0.78,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.934,
+          "epsilon": 11,
+          "max_grad_norm": 1.1289644,
+          "min_lr_ratio": 0.03625,
+          "min_lr": 0.000300226828
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_cbe50ff3e579",
+      "predicted_residual": 0.08738116174936295,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.5266972145592277,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.006276672783,
+          "lr schedule": "cosine",
+          "warmup": 3925,
+          "weight decay": 0.14,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.918,
+          "epsilon": 24,
+          "max_grad_norm": 0.4914103,
+          "min_lr_ratio": 0.01125,
+          "min_lr": 7.0612569e-05
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_d7d748e2c249",
+      "predicted_residual": 0.15711376070976257,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.5964298135196273,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.004438277888,
+          "lr schedule": "cosine",
+          "warmup": 2275,
+          "weight decay": 0.58,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.922,
+          "epsilon": 25,
+          "max_grad_norm": 0.29219431,
+          "min_lr_ratio": 0.03875,
+          "min_lr": 0.000171983268
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_06e5d43d99ea",
+      "predicted_residual": 0.11939994245767593,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.5587159952675407,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.007727490631,
+          "lr schedule": "cosine",
+          "warmup": 2725,
+          "weight decay": 0.46,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.97,
+          "epsilon": 16,
+          "max_grad_norm": 0.39914919,
+          "min_lr_ratio": 0.04125,
+          "min_lr": 0.000318758989
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_6ed2a586e72b",
+      "predicted_residual": 0.1119556799530983,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.551271732762963,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.015454981263,
+          "lr schedule": "cosine",
+          "warmup": 3775,
+          "weight decay": 0.06,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.978,
+          "epsilon": 19,
+          "max_grad_norm": 1.25266444,
+          "min_lr_ratio": 0.01875,
+          "min_lr": 0.000289780899
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_a669d3432a18",
+      "predicted_residual": 0.17950943112373352,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.6188254839335983,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.005856342784,
+          "lr schedule": "cosine",
+          "warmup": 3625,
+          "weight decay": 0.62,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.926,
+          "epsilon": 16,
+          "max_grad_norm": 0.74483873,
+          "min_lr_ratio": 0.02375,
+          "min_lr": 0.000139088141
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_551e8a6d469c",
+      "predicted_residual": 0.12422613054513931,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.563542183355004,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.014420007402,
+          "lr schedule": "cosine",
+          "warmup": 3475,
+          "weight decay": 0.34,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.946,
+          "epsilon": 20,
+          "max_grad_norm": 1.38991822,
+          "min_lr_ratio": 0.04625,
+          "min_lr": 0.000666925342
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_168b6e1287f8",
+      "predicted_residual": 0.11144617944955826,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.550762232259423,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.008876555777,
+          "lr schedule": "cosine",
+          "warmup": 2875,
+          "weight decay": 0.5,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.91,
+          "epsilon": 13,
+          "max_grad_norm": 1.89868424,
+          "min_lr_ratio": 0.00625,
+          "min_lr": 5.5478474e-05
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_b11e3576434c",
+      "predicted_residual": 0.12298152595758438,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.562297578767449,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.005464161027,
+          "lr schedule": "cosine",
+          "warmup": 3325,
+          "weight decay": 0.38,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.974,
+          "epsilon": 10,
+          "max_grad_norm": 0.67128625,
+          "min_lr_ratio": 0.02125,
+          "min_lr": 0.000116113422
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_3da1feea63ec",
+      "predicted_residual": 0.09985963255167007,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.539175685361535,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.004141059695,
+          "lr schedule": "cosine",
+          "warmup": 3175,
+          "weight decay": 0.18,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.962,
+          "epsilon": 14,
+          "max_grad_norm": 0.54525387,
+          "min_lr_ratio": 0.04875,
+          "min_lr": 0.00020187666
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_0115f89d936e",
+      "predicted_residual": 0.0992867723107338,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.5386028251205985,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.006727171322,
+          "lr schedule": "cosine",
+          "warmup": 2425,
+          "weight decay": 0.22,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.942,
+          "epsilon": 12,
+          "max_grad_norm": 1.71119005,
+          "min_lr_ratio": 0.01625,
+          "min_lr": 0.000109316534
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_5e2492407427",
+      "predicted_residual": 0.1775566041469574,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.616872656956822,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.00951365692,
+          "lr schedule": "cosine",
+          "warmup": 2125,
+          "weight decay": 0.54,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.958,
+          "epsilon": 17,
+          "max_grad_norm": 1.54221083,
+          "min_lr_ratio": 0.00125,
+          "min_lr": 1.1892071e-05
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_da948dcf86da",
+      "predicted_residual": 0.10355345159769058,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.5428695044075553,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.010196485019,
+          "lr schedule": "cosine",
+          "warmup": 3025,
+          "weight decay": 0.26,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.914,
+          "epsilon": 23,
+          "max_grad_norm": 1.01747969,
+          "min_lr_ratio": 0.03125,
+          "min_lr": 0.000318640157
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_4411ecee266d",
+      "predicted_residual": 0.07849518209695816,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.517811234906823,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.010928322054,
+          "lr schedule": "cosine",
+          "warmup": 2575,
+          "weight decay": 0.1,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.906,
+          "epsilon": 15,
+          "max_grad_norm": 0.44288376,
+          "min_lr_ratio": 0.03375,
+          "min_lr": 0.000368830869
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_d48e2f93d920",
+      "predicted_residual": 0.20119187235832214,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.640507925168187,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.005098242509,
+          "lr schedule": "cosine",
+          "warmup": 1375,
+          "weight decay": 0.7,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.966,
+          "epsilon": 12,
+          "max_grad_norm": 0.82645032,
+          "min_lr_ratio": 0.02625,
+          "min_lr": 0.000133828866
+        },
+        "max_step": 5119
+      }
+    },
+    {
+      "candidate_id": "new20_adamw_12cf3bd3a767",
+      "predicted_residual": 0.1048421636223793,
+      "chinchilla_loss": 3.4393160528098647,
+      "predicted_final_loss": 3.544158216432244,
+      "example": {
+        "source": "marin",
+        "conf": {
+          "source": "marin",
+          "data size": 2.68435456,
+          "model size": 134.513152,
+          "num layers": 32,
+          "num heads": 8,
+          "hidden dim": 512,
+          "optimizer": "adamw",
+          "learning rate": 0.011712685568,
+          "lr schedule": "cosine",
+          "warmup": 1225,
+          "weight decay": 0.42,
+          "batch size": 128,
+          "beta1": 0.9,
+          "beta2": 0.95,
+          "epsilon": 24,
+          "max_grad_norm": 0.60499704,
+          "min_lr_ratio": 0.00375,
+          "min_lr": 4.3922571e-05
+        },
+        "max_step": 5119
+      }
+    }
+  ]
+}

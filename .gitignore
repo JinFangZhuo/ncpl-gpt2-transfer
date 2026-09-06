@@ -1,0 +1,15 @@
+/RMNP/
+/NCPL/
+/NCPL-final/
+campaign/STOP
+campaign/controller*.lock
+campaign/controller_state*.json
+campaign/decisions/
+campaign/failures*.jsonl
+campaign/prediction_logs/
+campaign/results.lock
+campaign/runs/
+campaign/summary*.json
+__pycache__/
+*.pyc
+*.log

@@ -1,0 +1,7 @@
+datasets
+huggingface_hub
+numpy
+requests
+tiktoken
+torch>=2.0
+transformers

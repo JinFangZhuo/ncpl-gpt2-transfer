@@ -1,0 +1,33 @@
+{
+  "checks": {
+    "all_runs_are_5120_updates": true,
+    "candidate_count_is_20": true,
+    "candidate_ids_unique": true,
+    "new_full_configs_unique": true,
+    "new_optimizer_signatures_unique": true,
+    "no_exact_overlap_with_all_registered_history": true,
+    "no_exact_overlap_with_original_20": true,
+    "no_optimizer_signature_overlap_with_all_registered_history": true,
+    "no_optimizer_signature_overlap_with_original_20": true,
+    "original_completed_count_is_20": true,
+    "outcome_blind": true,
+    "runtime_contract_is_5120_updates": true
+  },
+  "exact_overlap_with_original": 0,
+  "manifest_sha256": "f674ebb0b3f0d848dc0da8a2d6a73f28f2600cb1710a511ab23e36dbc71bb9a4",
+  "new_candidate_count": 20,
+  "optimizer_signature_fields": [
+    "learning_rate",
+    "warmup_steps",
+    "weight_decay",
+    "beta1",
+    "beta2",
+    "epsilon_exponent",
+    "max_grad_norm",
+    "min_lr_ratio"
+  ],
+  "optimizer_signature_overlap_with_original": 0,
+  "original_completed_count": 20,
+  "original_results_sha256": "1f91fc1a63e2ee38d4535bcb0b8b939ad28f99da8c377fb9c8539cbf66589d95",
+  "status": "pass"
+}
